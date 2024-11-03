@@ -770,235 +770,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_DPDT_x2"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW5"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DPDT_x2"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, dual pole double throw, separate symbols"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW*DPDT*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DPDT_x2_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DPDT_x2_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.5748 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DPDT_x2_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_DPDT_x2_2_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -1377,7 +1148,7 @@
 		(at 243.84 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8c0c455d-2fcf-497d-9d13-61b1f8bd23bb")
+		(uuid "587e81fe-d6dd-4d88-895d-68c86627c717")
 	)
 	(junction
 		(at 58.42 90.17)
@@ -1397,14 +1168,6 @@
 		(color 0 0 0 0)
 		(uuid "e71ab2ff-7e09-46c3-8b1a-f88f082989b1")
 	)
-	(no_connect
-		(at 135.89 106.68)
-		(uuid "2b78dd1a-fec2-4f1d-9b65-1efa0e712376")
-	)
-	(no_connect
-		(at 255.27 105.41)
-		(uuid "3e5b0ed5-b89a-47a0-8baf-08527436069b")
-	)
 	(wire
 		(pts
 			(xy 59.69 92.71) (xy 58.42 92.71)
@@ -1417,16 +1180,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 110.49) (xy 255.27 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "155d6641-0a0a-4f3a-8bee-74d00f68a4bd")
-	)
-	(wire
-		(pts
 			(xy 58.42 82.55) (xy 59.69 82.55)
 		)
 		(stroke
@@ -1434,16 +1187,6 @@
 			(type default)
 		)
 		(uuid "1f2ca7b8-ae0d-4fa9-8cb2-ae90fa3c7c9f")
-	)
-	(wire
-		(pts
-			(xy 243.84 107.95) (xy 245.11 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b3bf024-d199-43d1-9c18-bcab1692a06c")
 	)
 	(wire
 		(pts
@@ -1467,6 +1210,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 105.41) (xy 243.84 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36abbf8c-5f0d-447d-bec4-e3f705bbfbec")
+	)
+	(wire
+		(pts
 			(xy 173.99 93.98) (xy 173.99 91.44)
 		)
 		(stroke
@@ -1487,16 +1240,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 105.41) (xy 261.62 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56f98b67-d8c9-4647-8c71-d0f8a7fb6954")
-	)
-	(wire
-		(pts
 			(xy 124.46 109.22) (xy 125.73 109.22)
 		)
 		(stroke
@@ -1504,16 +1247,6 @@
 			(type default)
 		)
 		(uuid "57c325ac-b40f-47c9-b143-24606d77e427")
-	)
-	(wire
-		(pts
-			(xy 142.24 106.68) (xy 142.24 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eea3c4b-5847-4614-8698-ba4de6507273")
 	)
 	(wire
 		(pts
@@ -1537,13 +1270,23 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 105.41) (xy 243.84 100.33)
+			(xy 243.84 100.33) (xy 238.76 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1648765-c72d-4f4e-9f88-7d43b8daabef")
+		(uuid "963028a7-48ef-4e61-a443-0a601de3146a")
+	)
+	(wire
+		(pts
+			(xy 243.84 107.95) (xy 245.11 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec9613a-4dbc-4d86-9030-e4e14392d695")
 	)
 	(wire
 		(pts
@@ -1567,16 +1310,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 111.76) (xy 135.89 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2f4237a-c628-4ba4-b141-ad7152490ca9")
-	)
-	(wire
-		(pts
 			(xy 173.99 91.44) (xy 175.26 91.44)
 		)
 		(stroke
@@ -1584,16 +1317,6 @@
 			(type default)
 		)
 		(uuid "ef304566-4cc0-4918-95eb-c8806a7ae01a")
-	)
-	(wire
-		(pts
-			(xy 243.84 100.33) (xy 238.76 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faefa95a-247f-45ec-91da-002ef1388187")
 	)
 	(wire
 		(pts
@@ -2423,6 +2146,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 243.84 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bf6ef72-70f4-4fc5-a2ad-e27565bff29c")
+		(property "Reference" "#PWR03"
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfa11420-fac7-4462-8ea0-5be46a53e930")
+		)
+		(instances
+			(project "Altair"
+				(path "/a8d3ef24-cafc-4654-901c-1ff2df9a9fad"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 213.36 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2624,87 +2413,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DPDT_x2")
-		(at 130.81 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44373ccb-8df7-4c57-b452-53a541556138")
-		(property "Reference" "SW98"
-			(at 130.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR"
-			(at 130.81 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KLOTZ:MSK12C02_reversible"
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d156ae17-147b-4eb7-ad9d-dfc5561123da")
-		)
-		(pin "5"
-			(uuid "386b6553-41f7-4f4c-ba6f-783774455a68")
-		)
-		(pin "4"
-			(uuid "25bde0d9-aaab-470e-80e3-5b79e0e6927b")
-		)
-		(pin "6"
-			(uuid "5debf3f8-fe93-43f2-84cb-223fbb056ec3")
-		)
-		(pin "3"
-			(uuid "706d655f-3425-4a46-aa08-48ffec285b67")
-		)
-		(pin "2"
-			(uuid "94facee8-fef5-493e-953d-c5584cb7119e")
-		)
-		(instances
-			(project ""
-				(path "/a8d3ef24-cafc-4654-901c-1ff2df9a9fad"
-					(reference "SW98")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 213.36 83.82 270)
 		(unit 1)
@@ -2772,74 +2480,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 243.84 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83342c8a-5448-44e5-9bec-7210cd6930d0")
-		(property "Reference" "#PWR07"
-			(at 243.84 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 243.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2dfd56a6-9217-4eeb-ae6b-0d943cfdd1da")
-		)
-		(instances
-			(project "Altair"
-				(path "/a8d3ef24-cafc-4654-901c-1ff2df9a9fad"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
-		(at 142.24 106.68 0)
+		(at 125.73 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2848,7 +2490,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c05d30b-a60b-421f-a77b-373094d513c8")
 		(property "Reference" "#PWR01"
-			(at 142.24 110.49 0)
+			(at 125.73 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,15 +2499,16 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 142.24 101.6 0)
+			(at 128.27 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 106.68 0)
+			(at 125.73 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +2517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 106.68 0)
+			(at 125.73 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2526,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 142.24 106.68 0)
+			(at 125.73 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,34 +2547,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DPDT_x2")
-		(at 250.19 107.95 0)
+		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
+		(at 238.76 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9570b5db-12ac-47b6-b6c5-19e75d14f2c4")
-		(property "Reference" "SW99"
-			(at 250.19 100.33 0)
+		(uuid "9534f6b9-43cd-498a-9368-147fd7ee82a9")
+		(property "Reference" "J2"
+			(at 236.22 107.5945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "PWR"
-			(at 250.19 102.87 0)
+		(property "Value" "Battery"
+			(at 236.22 105.0545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "KLOTZ:MSK12C02_reversible"
-			(at 250.19 107.95 0)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 238.76 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +2584,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 107.95 0)
+			(at 238.76 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,37 +2592,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 250.19 107.95 0)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 238.76 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "MP"
+			(uuid "a60689cc-d5ec-4aab-8b2f-b956d165aaf5")
 		)
 		(pin "1"
-			(uuid "88505ec7-c88f-4518-ba0d-029199a987e9")
-		)
-		(pin "5"
-			(uuid "386b6553-41f7-4f4c-ba6f-783774455a69")
-		)
-		(pin "4"
-			(uuid "25bde0d9-aaab-470e-80e3-5b79e0e6927c")
-		)
-		(pin "6"
-			(uuid "5debf3f8-fe93-43f2-84cb-223fbb056ec4")
-		)
-		(pin "3"
-			(uuid "d656de0d-2e90-4d5b-8ea9-1585f056321e")
+			(uuid "596e03b3-f4fa-43ad-9ff1-1649fe366a0d")
 		)
 		(pin "2"
-			(uuid "bdecb62f-6782-4c0f-b4ec-b574169e5723")
+			(uuid "db8a8432-9608-43d9-b218-123e829f6e51")
 		)
 		(instances
 			(project "Altair"
 				(path "/a8d3ef24-cafc-4654-901c-1ff2df9a9fad"
-					(reference "SW99")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3119,6 +2754,73 @@
 			(project "Altair"
 				(path "/a8d3ef24-cafc-4654-901c-1ff2df9a9fad"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 245.11 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcacdad3-9f4c-4ba2-b7f1-24601e7e5b55")
+		(property "Reference" "#PWR07"
+			(at 245.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 247.65 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 245.11 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97421e24-d590-4c53-ae35-fb4eafa3755e")
+		)
+		(instances
+			(project "Altair"
+				(path "/a8d3ef24-cafc-4654-901c-1ff2df9a9fad"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3275,72 +2977,6 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 261.62 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc78f570-1e4f-48da-a9a5-4d9a26a4fe98")
-		(property "Reference" "#PWR08"
-			(at 261.62 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 261.62 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 261.62 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7091b0ca-5fb4-4e80-a1d9-c55ca51c0591")
-		)
-		(instances
-			(project "Altair"
-				(path "/a8d3ef24-cafc-4654-901c-1ff2df9a9fad"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
 		(at 97.79 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3468,79 +3104,6 @@
 			(project "Altair"
 				(path "/a8d3ef24-cafc-4654-901c-1ff2df9a9fad"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
-		(at 238.76 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dea0689a-8e0c-47f5-b953-9e3455bf06b7")
-		(property "Reference" "J2"
-			(at 236.22 107.5945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery"
-			(at 236.22 105.0545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
-			(at 238.76 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 238.76 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "6d5d5ea3-4a80-43f4-9990-ac08958edcf9")
-		)
-		(pin "1"
-			(uuid "b0d721f0-4336-40b8-970a-0f4870165f2a")
-		)
-		(pin "2"
-			(uuid "58b1d42c-602f-4d43-851c-70ed25291061")
-		)
-		(instances
-			(project "Altair"
-				(path "/a8d3ef24-cafc-4654-901c-1ff2df9a9fad"
-					(reference "J2")
 					(unit 1)
 				)
 			)
