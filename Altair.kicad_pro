@@ -59,7 +59,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "shorting_items|87630000|22660000|9b222ff4-4d1b-4b2c-8747-9e8df86d838f|d346a0b3-8766-4968-9159-bea6abc57e33",
+        "solder_mask_bridge|87630000|22660000|9b222ff4-4d1b-4b2c-8747-9e8df86d838f|d346a0b3-8766-4968-9159-bea6abc57e33",
+        "solder_mask_bridge|95250000|48985500|a145f154-112b-4bda-a11d-d363ceec24d4|4ef6e1ab-bf02-4ed5-b03b-d5efac95b43c",
+        "unconnected_items|102870000|30280000|fbade913-eb96-4f07-89c9-78015382d43d|ce84d3e9-7224-4062-887e-35d0934aed83",
+        "unconnected_items|102870000|32820000|b203feba-9d70-4556-8602-3f9169f17097|fbade913-eb96-4f07-89c9-78015382d43d",
+        "unconnected_items|87630000|27740000|1ed691a9-0e05-4aaf-a9d6-ccb1409a5355|fbade913-eb96-4f07-89c9-78015382d43d"
+      ],
       "meta": {
         "version": 2
       },
@@ -78,7 +85,7 @@
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -182,8 +189,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        1.016
+        0.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -215,10 +221,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.4,
-          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false,
@@ -471,9 +473,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.4,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       }
     ],
