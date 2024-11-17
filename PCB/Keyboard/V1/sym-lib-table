@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SofleKeyboard")(type "KiCad")(uri "D:/in3d/AltairNice/PCB/Keyboard/V1/SofleKeyboard.kicad_sym")(options "")(descr ""))
+  (lib (name "SofleKeyboard-rescue")(type "KiCad")(uri "D:/in3d/AltairNice/PCB/Keyboard/V1/SofleKeyboard-rescue.kicad_sym")(options "")(descr ""))
+)
