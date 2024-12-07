@@ -39,6 +39,45 @@
 		(58 "User.9" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
@@ -23399,7 +23438,7 @@
 		)
 		(fp_arc
 			(start -0.050849 -2.51696)
-			(mid 1.54712 -2.001753)
+			(mid 1.547121 -2.001753)
 			(end 2.48915 -0.61196)
 			(stroke
 				(width 0.15)
@@ -41877,7 +41916,7 @@
 		(placed yes)
 		(layer "B.Cu")
 		(uuid "035624a6-11c3-4581-8c41-64de61b09767")
-		(at 159.78835 69.578459 90)
+		(at 162.41 74.91 90)
 		(descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
 		(tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
 		(property "Reference" "D11"
@@ -42852,7 +42891,7 @@
 		(placed yes)
 		(layer "B.Cu")
 		(uuid "31e74922-3724-4311-b1c9-f337f6ac7f04")
-		(at 140.73835 48.05196 90)
+		(at 144.37 53.88 90)
 		(descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
 		(tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
 		(property "Reference" "D4"
@@ -44022,7 +44061,7 @@
 		(placed yes)
 		(layer "B.Cu")
 		(uuid "8216e9a6-945c-4066-bfa9-f9505af14175")
-		(at 178.83835 71.86446 90)
+		(at 181.68 77.17 90)
 		(descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
 		(tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
 		(property "Reference" "D12"
@@ -44217,7 +44256,7 @@
 		(placed yes)
 		(layer "B.Cu")
 		(uuid "86bf0482-35a5-4a9f-8d46-b63f9689bd6c")
-		(at 121.68835 50.52846 90)
+		(at 125.14 56.06 90)
 		(descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
 		(tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
 		(property "Reference" "D3"
@@ -44802,11 +44841,11 @@
 		(placed yes)
 		(layer "B.Cu")
 		(uuid "be8c0046-be15-4f21-ac83-baf16397bc5b")
-		(at 89.07835 61.00096 90)
+		(at 87.17 60.66 90)
 		(descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
 		(tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
 		(property "Reference" "D2"
-			(at 0 -1.5 -90)
+			(at 0 -1.5 90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "f6091a13-4bce-4ef7-ad99-9dee1eb4c668")
@@ -44819,7 +44858,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 1.2 -90)
+			(at 0 1.2 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b69bf34b-1577-4e16-95c6-fb5404fa07e8")
@@ -44832,7 +44871,7 @@
 			)
 		)
 		(property "Footprint" "SofleKeyboard-footprint:Diode_SOD123"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3fa64c2c-7c73-416f-926d-295619b2ca7f")
@@ -44845,7 +44884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ea5f3b1c-9ada-4b4c-991f-b1f1a5afe731")
@@ -44858,7 +44897,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "44898b47-aa1b-4682-b241-d7d960a26265")
@@ -44952,7 +44991,7 @@
 			(uuid "cd46133c-7fe4-4b6b-8d61-baff2344beb5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 -90)
+			(at 0 2 90)
 			(layer "B.Fab")
 			(uuid "4182f884-430d-472f-97d4-147d1770fcfd")
 			(effects
@@ -46167,7 +46206,7 @@
 		(placed yes)
 		(layer "B.Cu")
 		(uuid "e425a862-b48a-49a9-8e37-ed9828ed3ff8")
-		(at 159.78835 50.52846 90)
+		(at 162.9 54.71 90)
 		(descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
 		(tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
 		(property "Reference" "D5"
@@ -46366,7 +46405,7 @@
 		(descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
 		(tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
 		(property "Reference" "D25"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "a7f64956-cbfa-481d-8b49-66fe1736671f")
@@ -46379,7 +46418,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 1.2 360)
+			(at 0 1.2 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5d1f0a56-c3de-4302-bc78-8d4d05b56f0e")
@@ -46392,7 +46431,7 @@
 			)
 		)
 		(property "Footprint" "SofleKeyboard-footprint:Diode_SOD123"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9b53d08f-242b-4b38-a703-2c8047d87678")
@@ -46405,7 +46444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3feaf69d-c6ac-440d-b330-ed08964c9fba")
@@ -46418,7 +46457,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0a73f274-e5bb-4dc4-a77d-8fe5699f44ee")
@@ -46512,7 +46551,7 @@
 			(uuid "3ccba332-afcb-4308-b3c0-6db833ab9293")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "9c4216a7-36ea-447d-a6d9-1eb666dde0a4")
 			(effects
@@ -46752,11 +46791,11 @@
 		(placed yes)
 		(layer "B.Cu")
 		(uuid "f075ae7e-39d7-4708-a1f6-ea366ed3867e")
-		(at 86.82835 60.97096 90)
+		(at 84.62 60.62 90)
 		(descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
 		(tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
 		(property "Reference" "D1"
-			(at 0 -1.5 -90)
+			(at 0 -1.5 90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "b49f0ade-850d-4b8b-97ef-68d301700181")
@@ -46769,7 +46808,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 1.2 -90)
+			(at 0 1.2 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0f527a55-5e07-4c30-a23f-83068df1dbf0")
@@ -46782,7 +46821,7 @@
 			)
 		)
 		(property "Footprint" "SofleKeyboard-footprint:Diode_SOD123"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bd1791e6-4f40-4a5c-8c3f-319d095380ab")
@@ -46795,7 +46834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "28bfd16a-71c6-4f6f-af14-ed20056c6d5a")
@@ -46808,7 +46847,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0c60bd97-d838-4302-be5e-722c8550e084")
@@ -46902,7 +46941,7 @@
 			(uuid "170e842c-5f18-4e27-981c-0cdfaced63a9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 -90)
+			(at 0.03 0.01 90)
 			(layer "B.Fab")
 			(uuid "b155d970-a404-4f75-896a-029781c7aab6")
 			(effects
@@ -47142,7 +47181,7 @@
 		(placed yes)
 		(layer "B.Cu")
 		(uuid "ff062b50-c139-4123-9890-9dd402e6108d")
-		(at 178.83835 52.81446 90)
+		(at 181.64 56.51 90)
 		(descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
 		(tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
 		(property "Reference" "D6"
@@ -47332,5 +47371,203 @@
 				(xyz 180 0 0)
 			)
 		)
+	)
+	(gr_circle
+		(center 199.72 123.62)
+		(end 200.72 123.62)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "1fa1fbde-f236-45e1-8c5f-9c33d4f25f50")
+	)
+	(gr_circle
+		(center 106.13 117.01)
+		(end 107.13 117.01)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "52a56557-3b12-48a5-8e4d-13b62791e140")
+	)
+	(gr_circle
+		(center 108.17 114.3)
+		(end 109.17 114.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "5bdfc6e1-e5ca-45d0-8b7f-139ebbe24e11")
+	)
+	(gr_circle
+		(center 165.33 38.19)
+		(end 166.33 38.19)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "608ce9a5-5003-45c8-b374-a6b1d141cbe6")
+	)
+	(gr_circle
+		(center 108.04 37.96)
+		(end 109.04 37.96)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "734aa393-b4ec-419f-bb3e-7389b2bb0f5c")
+	)
+	(gr_circle
+		(center 69.94 117.01)
+		(end 70.94 117.01)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "735d104e-5443-4b7e-965d-a44aa46f913f")
+	)
+	(gr_circle
+		(center 146.27 35.91)
+		(end 147.27 35.91)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "766957c7-5c14-43fb-8912-fa16b98d09eb")
+	)
+	(gr_circle
+		(center 125.04 35.9)
+		(end 126.04 35.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "7fbc1751-2aab-471c-b8d0-7418f8f0eb01")
+	)
+	(gr_circle
+		(center 118.45 131.3)
+		(end 119.45 131.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "84bd652c-f1ea-4744-ab71-ce54fed4601a")
+	)
+	(gr_circle
+		(center 191.52 143.95)
+		(end 192.52 143.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "8dec9490-5596-4b2a-95e9-534b61ecac01")
+	)
+	(gr_circle
+		(center 116.4 114.3)
+		(end 117.4 114.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "8fe8b5d5-e6d2-4b5a-800e-f477e330c1f5")
+	)
+	(gr_circle
+		(center 205.27 40.22)
+		(end 206.27 40.22)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "c579228c-e2de-4594-805a-6c6ea9a6d5fc")
+	)
+	(gr_circle
+		(center 69.94 42.71)
+		(end 70.94 42.71)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "c5a55c90-2332-4ba7-a2a3-a96dc91f5943")
+	)
+	(gr_circle
+		(center 105.99 40.67)
+		(end 106.99 40.67)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "c7bcea8e-5af5-439d-b1e5-1737c2b5463c")
+	)
+	(gr_circle
+		(center 184.38 115.23)
+		(end 185.38 115.23)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "e31b3181-b01a-4475-98e1-8f5e03cf2b6f")
+	)
+	(gr_circle
+		(center 127.07 35.48)
+		(end 128.07 35.48)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "e75f818f-1117-49f6-9912-d25ccc54084a")
+	)
+	(gr_circle
+		(center 144.23 35.48)
+		(end 145.23 35.48)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "f23cb15a-b706-4963-9b83-cc2544773bfc")
+	)
+	(gr_circle
+		(center 163.28 37.95)
+		(end 164.28 37.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "fadd2956-bf8c-4b0e-bdd6-ade7a7fdd44b")
 	)
 )
