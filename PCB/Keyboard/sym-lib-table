@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "marbastlib-promicroish")(type "KiCad")(uri "D:/in3d/AltairNice/PCB/footprint/KiCAD-PCM-2024.08.18/symbols/marbastlib-promicroish.kicad_sym")(options "")(descr ""))
+)
