@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.0,
-          "height": 4.0,
-          "width": 4.0
+          "drill": 0.4,
+          "height": 1.5,
+          "width": 1.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -72,7 +72,7 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_near_hole": "error",
+        "hole_near_hole": "ignore",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -482,7 +482,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "AltairMCU.net",
+      "netlist": "Altair.net",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
