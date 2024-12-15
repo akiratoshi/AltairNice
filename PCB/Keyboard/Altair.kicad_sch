@@ -1662,16 +1662,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 71.12) (xy 115.57 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "599e367a-a3a9-4dd7-9b56-6bdcde4aff19")
-	)
-	(wire
-		(pts
 			(xy 147.32 78.74) (xy 143.51 78.74)
 		)
 		(stroke
@@ -1702,16 +1692,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 73.66) (xy 107.95 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7891fb5b-8100-42bd-9695-4ce488d2db70")
-	)
-	(wire
-		(pts
 			(xy 60.96 115.57) (xy 60.96 111.76)
 		)
 		(stroke
@@ -1729,16 +1709,6 @@
 			(type default)
 		)
 		(uuid "7b11fb09-620a-4049-ac79-c19064c9afa5")
-	)
-	(wire
-		(pts
-			(xy 125.73 71.12) (xy 125.73 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "884e4c33-aa0b-4293-b326-62982bbb1643")
 	)
 	(wire
 		(pts
@@ -1844,6 +1814,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 151.13 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a18a823-f7fa-4d70-ac3a-df2dd0f8c9b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.9857 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST"
+		(shape input)
+		(at 140.97 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ec3efb7-a898-4b04-8d02-246a0744c91e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.5377 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2300,7 +2314,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 120.65 71.12 0)
+		(at 146.05 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2309,7 +2323,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3855efa-91d6-4cd1-b9b3-58f0b79836cb")
 		(property "Reference" "SW99"
-			(at 120.65 63.5 0)
+			(at 146.05 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,7 +2331,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 120.65 66.04 0)
+			(at 146.05 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +2339,7 @@
 			)
 		)
 		(property "Footprint" "ergogen_fp:sw_reset_side"
-			(at 120.65 66.04 0)
+			(at 146.05 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +2348,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 66.04 0)
+			(at 146.05 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2357,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 120.65 71.12 0)
+			(at 146.05 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
