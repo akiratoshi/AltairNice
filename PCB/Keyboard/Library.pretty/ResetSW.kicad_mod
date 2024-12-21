@@ -1,0 +1,227 @@
+(footprint "ResetSW"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Two pin through hole Tactile Switch, the same as on the Corne")
+	(tags "Tactile Switch")
+	(property "Reference" "REF**"
+		(at 0 2.55 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7fcba865-4892-4c2b-8608-92393594983b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Push"
+		(at 0 -2.55 0)
+		(layer "F.Fab")
+		(uuid "585d222e-8c38-4727-b862-22094acdb960")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca45bc89-e1b8-4090-98e2-0fcac8719771")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4bfa47da-800a-4d3b-ae6c-2971809521ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Push button switch, generic, two pins"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2601fc74-e7f7-4e51-a9ad-cdf1cedc6af9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 3 1.75)
+		(end -3 1.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "d094b318-01fd-41e3-b740-4da2c1b4787a")
+	)
+	(fp_line
+		(start 3 1.5)
+		(end 3 1.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "94a860e5-6546-4fa0-a0c3-74fdded043f4")
+	)
+	(fp_line
+		(start 3 -1.75)
+		(end 3 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "25bd5367-c6a0-437f-82b8-7f9805fc418e")
+	)
+	(fp_line
+		(start -3 1.75)
+		(end -3 1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "6f6d7339-7eb2-48fb-ac28-b9e6b335a083")
+	)
+	(fp_line
+		(start -3 -1.5)
+		(end -3 -1.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "28857066-3da5-491a-86e6-01e221c28ffc")
+	)
+	(fp_line
+		(start -3 -1.75)
+		(end 3 -1.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "6d6c00ec-e167-4f11-93e2-a6b2c403327d")
+	)
+	(fp_line
+		(start 3 1.75)
+		(end 3 1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec58ea59-b967-4b46-a9a7-fe1c332f2155")
+	)
+	(fp_line
+		(start 3 -1.75)
+		(end 3 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9bdd7905-d16a-4395-a156-12fde119302c")
+	)
+	(fp_line
+		(start -3 1.75)
+		(end 3 1.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b53b7ec-7756-4751-95c2-6a54816cd2d8")
+	)
+	(fp_line
+		(start -3 1.75)
+		(end -3 1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e17ff78c-485c-4c63-9349-0d632ff0b1b9")
+	)
+	(fp_line
+		(start -3 -1.75)
+		(end 3 -1.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e90a42fd-f964-49ec-9db2-a8545d6ca2df")
+	)
+	(fp_line
+		(start -3 -1.75)
+		(end -3 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5a9f46d-363b-4200-b8d1-24c4991990fb")
+	)
+	(fp_text user "RESET"
+		(at 0.127 0 0)
+		(layer "B.SilkS")
+		(uuid "9f7cf9ab-3bbe-40f0-9a6f-20e16578e9a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "RESET"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "e76a16af-6dc5-4462-a250-0ab5ac8fd26a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 3.25 0 180)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "c99b9e27-4196-4eda-ae7b-bd673327be09")
+	)
+	(pad "2" thru_hole circle
+		(at -3.25 0 180)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "84e35756-8150-43a3-80c4-4dbd14a12d9f")
+	)
+)

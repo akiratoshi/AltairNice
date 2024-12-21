@@ -10,4 +10,5 @@
   (lib (name "hs")(type "KiCad")(uri "D:/in3d/AltairNice/PCB/footprint/hs")(options "")(descr ""))
   (lib (name "MX_Hotswap")(type "KiCad")(uri "D:/in3d/AltairNice/PCB/footprint/MX_V2-main/MX_Hotswap.pretty")(options "")(descr ""))
   (lib (name "MX_Optional_Reversible")(type "KiCad")(uri "D:/in3d/AltairNice/PCB/footprint/MX_V2-main/MX_Optional_Reversible.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
 )

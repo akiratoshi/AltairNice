@@ -1,0 +1,110 @@
+(footprint "Jumper"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 -90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7cebbd7d-7e05-4e37-8187-75f83ade1282")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jumper"
+		(at 0 -7.3 -90)
+		(layer "F.Fab")
+		(uuid "8e43c599-3b93-49f5-a84e-b31dd5b8ecaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ceecefe-d90e-40f7-8bc6-aed6e94c569d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3f814a7-088d-4b45-9d35-0bd784cb8a5b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73359d8a-645b-49fc-852e-724c3859f180")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" smd custom
+		(at 0 -0.508)
+		(size 0.1 0.1)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(clearance 0.1)
+		(zone_connect 0)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.6 -0.4) (xy -0.6 -0.4) (xy -0.6 -0.2) (xy 0 0.4) (xy 0.6 -0.2)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "bf194187-f577-4d12-9dfc-a1064c8dc0d9")
+	)
+	(pad "2" smd custom
+		(at 0 0.508)
+		(size 1.2 0.5)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(clearance 0.1)
+		(zone_connect 0)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.6 0) (xy -0.6 0) (xy -0.6 -1) (xy 0 -0.4) (xy 0.6 -1)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "8bbc3a68-a420-4a40-90da-db73c3a806d6")
+	)
+)
